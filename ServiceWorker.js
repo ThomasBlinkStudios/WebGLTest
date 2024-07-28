@@ -1,9 +1,9 @@
 const cacheName = "Blink Studios-ArenaGame-0.1";
 const contentToCache = [
-    "Build/ArenaDemo2.loader.js",
-    "Build/ArenaDemo2.framework.js",
-    "Build/ArenaDemo2.data",
-    "Build/ArenaDemo2.wasm",
+    "Build/ArenaDemo.loader.js",
+    "Build/ArenaDemo.framework.js",
+    "Build/ArenaDemo.data",
+    "Build/ArenaDemo.wasm",
     "TemplateData/style.css"
 
 ];
