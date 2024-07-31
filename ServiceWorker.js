@@ -1,9 +1,9 @@
-const cacheName = "Blink Studios-ArenaGame-0.1";
+const cacheName = "Blink Studios-Swipe Arena-0.1";
 const contentToCache = [
-    "Build/ArenaDemo.loader.js",
-    "Build/ArenaDemo.framework.js",
-    "Build/ArenaDemo.data",
-    "Build/ArenaDemo.wasm",
+    "Build/SwipeArenaDemo.loader.js",
+    "Build/SwipeArenaDemo.framework.js",
+    "Build/SwipeArenaDemo.data",
+    "Build/SwipeArenaDemo.wasm",
     "TemplateData/style.css"
 
 ];

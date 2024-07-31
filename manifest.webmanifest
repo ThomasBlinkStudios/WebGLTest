@@ -1,6 +1,6 @@
 {
-    "name": "ArenaGame",
-    "short_name": "ArenaGame",
+    "name": "Swipe Arena",
+    "short_name": "Swipe Arena",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",
