@@ -20,6 +20,12 @@
       <div id="unity-warning"> </div>
     </div>
     <script>
+      function GetAuthToken() {
+        // Your logic to get the auth token
+        var authToken = "your-auth-token"; // Replace this with actual logic to get the token
+        return authToken;
+      }
+      
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
           navigator.serviceWorker.register("ServiceWorker.js");
@@ -57,12 +63,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SwipeArenaBuild.loader.js";
+      var loaderUrl = buildUrl + "/TestWEBGL.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/SwipeArenaBuild.data",
-        frameworkUrl: buildUrl + "/SwipeArenaBuild.framework.js",
-        codeUrl: buildUrl + "/SwipeArenaBuild.wasm",
+        dataUrl: buildUrl + "/TestWEBGL.data",
+        frameworkUrl: buildUrl + "/TestWEBGL.framework.js",
+        codeUrl: buildUrl + "/TestWEBGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Blink Studios",
         productName: "Swipe Arena",
