@@ -1,9 +1,9 @@
 const cacheName = "Blink Studios-Swipe Arena-0.1";
 const contentToCache = [
-    "Build/SwipeArena.loader.js",
-    "Build/SwipeArena.framework.js",
-    "Build/SwipeArena.data",
-    "Build/SwipeArena.wasm",
+    "Build/TestIOS.loader.js",
+    "Build/TestIOS.framework.js",
+    "Build/TestIOS.data",
+    "Build/TestIOS.wasm",
     "TemplateData/style.css"
 
 ];
