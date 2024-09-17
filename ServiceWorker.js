@@ -1,9 +1,9 @@
-const cacheName = "Blink Studios-Swipe Arena-0.1";
+const cacheName = "PlayToTon-Swipe Arena-0.1";
 const contentToCache = [
     "Build/SwipeArena.loader.js",
-    "Build/SwipeArena.framework.js.unityweb",
-    "Build/SwipeArena.data.unityweb",
-    "Build/SwipeArena.wasm.unityweb",
+    "Build/SwipeArena.framework.js",
+    "Build/SwipeArena.data",
+    "Build/SwipeArena.wasm",
     "TemplateData/style.css"
 
 ];
